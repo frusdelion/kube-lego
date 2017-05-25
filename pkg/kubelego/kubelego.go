@@ -14,7 +14,6 @@ import (
 
 	"github.com/harborfront/kube-lego/pkg/acme"
 	"github.com/harborfront/kube-lego/pkg/ingress"
-	"github.com/harborfront/kube-lego/pkg/kubelego_const"
 	"github.com/harborfront/kube-lego/pkg/provider/gce"
 	"github.com/harborfront/kube-lego/pkg/provider/nginx"
 	"github.com/harborfront/kube-lego/pkg/secret"
@@ -354,8 +353,10 @@ func (kl *KubeLego) paramsLego() error {
 	case kubelego.KeyTypeRsa:
 		kl.legoKeyType = kubelego.KeyTypeRsa
 		break
-	default:
 	case kubelego.KeyTypeEcc:
+		kl.legoKeyType = kubelego.KeyTypeEcc
+		break
+	default:
 		kl.legoKeyType = kubelego.KeyTypeEcc
 		break
 	}
