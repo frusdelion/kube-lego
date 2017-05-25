@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/jetstack/kube-lego/pkg/ingress"
+	"github.com/frusdelion/kube-lego/pkg/ingress"
 
 	k8sMeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

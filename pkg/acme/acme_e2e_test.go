@@ -11,8 +11,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/golang/mock/gomock"
-	kubelego "github.com/jetstack/kube-lego/pkg/kubelego_const"
-	"github.com/jetstack/kube-lego/pkg/mocks"
+	kubelego "github.com/frusdelion/kube-lego/pkg/kubelego_const"
+	"github.com/frusdelion/kube-lego/pkg/mocks"
 	"k8s.io/apimachinery/pkg/util/intstr"
 )
 

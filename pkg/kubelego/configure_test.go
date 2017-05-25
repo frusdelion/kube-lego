@@ -3,7 +3,7 @@ package kubelego
 import (
 	"testing"
 
-	"github.com/jetstack/kube-lego/pkg/kubelego_const"
+	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
 
 	"github.com/stretchr/testify/assert"
 	k8sApi "k8s.io/client-go/pkg/api/v1"

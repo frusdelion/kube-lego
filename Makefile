@@ -1,4 +1,4 @@
-ACCOUNT=jetstack
+ACCOUNT=frusdelion
 APP_NAME=kube-lego
 
 PACKAGE_NAME=github.com/${ACCOUNT}/${APP_NAME}
@@ -73,7 +73,7 @@ docker_%:
 		golang:${GO_VERSION} \
 		/bin/bash -c "tar xf - && make $*" \
 	))
-	
+
 	# run build inside container
 	tar cf - . | docker start -a -i $(CONTAINER_ID)
 
@@ -87,7 +87,7 @@ docker_%:
 
 image: docker_all version
 	docker build --build-arg VCS_REF=$(GIT_COMMIT) -t $(DOCKER_IMAGE):$(BUILD_TAG) .
-	
+
 push: image
 	set -e; \
 	for tag in $(IMAGE_TAGS); do \
