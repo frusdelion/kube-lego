@@ -15,6 +15,8 @@ import (
 
 	"golang.org/x/crypto/acme"
 	"golang.org/x/net/context"
+
+	kubelego "github.com/harborfront/kube-lego/pkg/kubelego_const"
 )
 
 func (a *Acme) getContact() []string {
