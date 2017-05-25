@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
-	"github.com/frusdelion/kube-lego/pkg/utils"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/utils"
 
 	"github.com/Sirupsen/logrus"
 )

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
-	"github.com/frusdelion/kube-lego/pkg/mocks"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/mocks"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/golang/mock/gomock"

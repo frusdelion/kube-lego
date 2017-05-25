@@ -3,7 +3,7 @@ package gce
 import (
 	"testing"
 
-	"github.com/frusdelion/kube-lego/pkg/mocks"
+	"github.com/harborfront/kube-lego/pkg/mocks"
 
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"

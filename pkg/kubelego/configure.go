@@ -1,8 +1,8 @@
 package kubelego
 
 import (
-	"github.com/frusdelion/kube-lego/pkg/ingress"
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/ingress"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
 
 	"fmt"
 	"strings"

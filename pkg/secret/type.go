@@ -1,7 +1,7 @@
 package secret
 
 import (
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
 
 	k8sApi "k8s.io/client-go/pkg/api/v1"
 )

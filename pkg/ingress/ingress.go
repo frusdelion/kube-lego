@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
 
 	"github.com/Sirupsen/logrus"
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"

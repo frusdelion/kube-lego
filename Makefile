@@ -1,4 +1,4 @@
-ACCOUNT=frusdelion
+ACCOUNT=harborfront
 APP_NAME=kube-lego
 
 PACKAGE_NAME=github.com/${ACCOUNT}/${APP_NAME}
@@ -15,7 +15,7 @@ TEST_DIR=_test
 CONTAINER_DIR=/go/src/${PACKAGE_NAME}
 
 BUILD_TAG := build
-IMAGE_TAGS := canary
+IMAGE_TAGS := canary $(APP_VERSION)
 
 PACKAGES=$(shell find . -name "*_test.go" | xargs -n1 dirname | grep -v 'vendor/' | sort -u | xargs -n1 printf "%s.test_pkg ")
 

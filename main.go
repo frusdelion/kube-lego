@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego"
+	"github.com/harborfront/kube-lego/pkg/kubelego"
 )
 
 var AppVersion = "unknown"

@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
 
 	k8sErrors "k8s.io/apimachinery/pkg/api/errors"
 	k8sMeta "k8s.io/apimachinery/pkg/apis/meta/v1"

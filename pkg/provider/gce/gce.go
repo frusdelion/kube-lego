@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
-	"github.com/frusdelion/kube-lego/pkg/service"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/service"
 
 	"github.com/Sirupsen/logrus"
 	k8sExtensions "k8s.io/client-go/pkg/apis/extensions/v1beta1"

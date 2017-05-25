@@ -11,4 +11,6 @@ before_install:
 install:
 - make depend
 script:
-- make all
+- docker login -e="${DOCKER_EMAIL}" -u="${DOCKER_USERNAME}" -p="${DOCKER_PASSWORD}"
+- make image
+- make push

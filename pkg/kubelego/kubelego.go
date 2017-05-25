@@ -12,12 +12,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/frusdelion/kube-lego/pkg/acme"
-	"github.com/frusdelion/kube-lego/pkg/ingress"
-	"github.com/frusdelion/kube-lego/pkg/kubelego_const"
-	"github.com/frusdelion/kube-lego/pkg/provider/gce"
-	"github.com/frusdelion/kube-lego/pkg/provider/nginx"
-	"github.com/frusdelion/kube-lego/pkg/secret"
+	"github.com/harborfront/kube-lego/pkg/acme"
+	"github.com/harborfront/kube-lego/pkg/ingress"
+	"github.com/harborfront/kube-lego/pkg/kubelego_const"
+	"github.com/harborfront/kube-lego/pkg/provider/gce"
+	"github.com/harborfront/kube-lego/pkg/provider/nginx"
+	"github.com/harborfront/kube-lego/pkg/secret"
 
 	log "github.com/Sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/intstr"
