@@ -154,6 +154,9 @@ func (a *Acme) generatePrivateKey() ([]byte, crypto.Signer, error) {
 		break
 
 	default:
+		ecpk, err = ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+		break
+		
 	case 384:
 		ecpk, err = ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
 		break
