@@ -366,8 +366,11 @@ func (kl *KubeLego) paramsLego() error {
 	if keyType == kubelego.KeyTypeEcc {
 		switch keySize {
 		case "224":
+			fallthrough
 		case "256":
+			fallthrough
 		case "384":
+			fallthrough
 		case "521":
 			ks, err := strconv.ParseInt(keySize, 10, 0)
 			if err != nil {
