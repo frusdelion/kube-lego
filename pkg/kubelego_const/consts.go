@@ -8,7 +8,7 @@ const KeyTypeRsa = "rsa"
 const RsaKeySize = 2048
 
 const KeyTypeEcc = "ecc"
-const EccKeySize = 384
+const EccKeySize = 256
 
 const AcmeRegistration = "acme-registration.json"
 const AcmeRegistrationUrl = "acme-registration-url"
